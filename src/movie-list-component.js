@@ -21,7 +21,9 @@ class MovieListComponent extends Component {
     const submit = e => {
       e.preventDefault();
       const query = document.getElementById("query");
-      this.getSearchMovie(query.value);
+      if (query.value !== "") {
+        this.getSearchMovie(query.value);
+      }
     };
     form.addEventListener("submit", submit);
   }
