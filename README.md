@@ -1,2 +1,0 @@
-# MoviesAPI
-Created with CodeSandbox
